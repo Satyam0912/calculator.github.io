@@ -41,7 +41,7 @@
 
 .buttons {
     display: grid;
-    padding: 0 0 10px 10px;
+    padding: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
