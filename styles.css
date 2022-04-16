@@ -52,7 +52,7 @@
     cursor: pointer;
     height: 50px;
     width: 50px;
-    color: white;
+    color: blue;
     background-image: linear-gradient(to left, rgb(70, 64, 64), black);
     box-shadow: 3px 4px 5px 6px black;
     cursor: pointer;
