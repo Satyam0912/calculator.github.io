@@ -2,7 +2,9 @@ var displayArea = document.getElementById('display');
 
 function displayResult() {
     try {
-        displayArea.innerText = eval(displayArea.innerText);
+        if(displayArea.innerText != "0"){
+            displayArea.innerText = eval(displayArea.innerText);
+        }
     }
     catch (error) {
         displayArea.innerText = '0';
